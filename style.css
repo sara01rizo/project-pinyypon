@@ -7,7 +7,23 @@ h3 {
     font-family: 'Poppins', sans-serif;
 }
 
+.pre-ini-1 {
+    font-size: 19px;
+    background: #c1748e;
+    margin: 0;
+
+}
+
 .link-redes {
     text-align: center;
     padding: 5px;
+}
+
+.container {
+    margin: 0;
+}
+
+.row {
+    background: #c1748e;
+    font-size: 19px;
 }
