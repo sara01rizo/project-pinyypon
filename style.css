@@ -10,12 +10,14 @@ h3 {
     text-align: center;
     background: rgb(238, 210, 210);
     text-transform: capitalize;
+    color: #ffff;
     
 }
 
 .primary-logo {
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
 }
 
 .pre-ini-1 {
@@ -35,6 +37,9 @@ h3 {
 }
 
 .row {
+    font-family: 'Nunito Sans', sans-serif;
     background: #e9b5c6;
     font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    color: #fa4f88;
 }
