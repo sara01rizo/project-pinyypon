@@ -1,8 +1,8 @@
 (async () => {
   const { value: pais } = await Swal.fire({
-    title: "Bienvenidos!",
-    text: "Piny y Pon",
-    html: '<b class="red">Piny y Pon </b>',
+    title: "Bienvenidas y Bienvenidos!",
+    text: "Piny & Pon",
+    html: '',
     icon: "success",
     confirmButtonText: "Select",
     footer: '<span class="red">100 % made with 💗</span>',
@@ -10,7 +10,8 @@
     padding: "1rem",
     backdrop: true,
     timer: 50000,
-    timerProgressBar: true,
+      timerProgressBar: true,
+    footer: 'Hecho en México',
     input: "select",
     inputPlaceholder: "Country",
     inputValue: "",

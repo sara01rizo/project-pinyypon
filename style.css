@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
 
 }
 
@@ -7,7 +8,7 @@ h3 {
     font-size: 18px;
     padding-top: 5px;
     text-align: center;
-    background: rosybrown;
+    background: rgb(238, 210, 210);
     text-transform: capitalize;
     
 }
@@ -19,7 +20,7 @@ h3 {
 
 .pre-ini-1 {
     font-size: 19px;
-    background: #c1748e;
+    background: #db9eb2;
     margin: 0;
 
 }
@@ -34,6 +35,6 @@ h3 {
 }
 
 .row {
-    background: #c1748e;
+    background: #e9b5c6;
     font-size: 18px;
 }
