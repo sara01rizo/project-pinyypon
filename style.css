@@ -41,13 +41,6 @@ h3 {
   color: #fa4f88;
 }
 
-.about {
-  margin: 50px 5px 5px 5px;
-  padding: 5px 5px;
-}
-
-.contact {
-  padding: 2px 2px;
-  font-size: 14px;
-  font-family: "Nunito Sans", sans-serif;
+.info-box-icon {
+  margin: 0px 0px 0px 12px;
 }
