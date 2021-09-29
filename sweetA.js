@@ -1,8 +1,8 @@
 (async () => {
-  const { value: pais } = await Swal.fire({
+  const { value: estado } = await Swal.fire({
     title: "Bienvenidas y Bienvenidos!",
     text: "Piny & Pon",
-    html: '',
+    html: "",
     icon: "success",
     confirmButtonText: "Select",
     footer: '<span class="red">100 % made with 💗</span>',
@@ -10,10 +10,10 @@
     padding: "1rem",
     backdrop: true,
     timer: 50000,
-      timerProgressBar: true,
-    footer: 'Hecho en México',
-    input: "select",
-    inputPlaceholder: "Country",
+    timerProgressBar: true,
+    footer: "Hecho en México",
+    input: "selecciona",
+    inputPlaceholder: "Estado",
     inputValue: "",
     inputOptions: {
       austria: "Austria",
@@ -208,9 +208,9 @@
     customClass: "popup-class",
   });
 
-  if (pais) {
+  if (estado) {
     Swal.fire({
-      title: `Tu seleccionaste a ${pais}`,
+      title: `Tu seleccionaste a ${estado}`,
     });
   }
 })();
